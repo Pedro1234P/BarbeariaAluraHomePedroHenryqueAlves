@@ -1,56 +1,79 @@
-.cabeçalho{background-color: gray;
-    padding: 20px;}
-    
-    nav{position: absolute;
-    top: 110px;
-    right: 0;}
-    
-    nav li{display: inline;
-    margin:0 0 0 15PX;}
-    
-    nav a:hover {color: deeppink;
-    }
-    
-    nav a {text-transform: uppercase;
-    color: black;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;}
-    
-    
-    .caixa{position: relative;
-    width: 940px;
-    margin: 0 auto;}
-    
-    .produtos{
-    width: 940px;
-    margin: o auto;
-    
-    }
-    
-    
-    .produtos li{
-    display: inline-block;
-    text-align: center;
-    width: 27%;
-    vertical-align: top;
-    margin: 0 1.5;
-    padding: 30 px 20px;
-    border-radius: border-box;
-    border: 2px solid black;
-    border-radius: 10px;
-    
-    }
-    
-    
-    .produtos li:hover {
-    border-color: deeppink;
-    }
-    
-    .produtos li:active{
-    border-color: deeppink;
-    }
-    
-    .produtos h2{
-    border-color: deeppink;
-    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HOME</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header class="cabeçalho">
+
+<div class="caixa">
+
+<h1><img src="logo.png" alt=""></h1>
+
+
+<nav>
+<ul>
+<li><a href="">HOME</a> </li>
+<li><a href="">PRODUTOS</a> </li>
+<li><a href="">CONTATOS</a> </li>
+</ul>
+
+
+</nav>
+
+</div>
+</header>
+
+<main>
+<ul class="produtos">
+<li>
+<h2>Cabelo</h2>
+<img src="cabelo.jpg" alt="">
+<p class="decrição">Na tesoura ou máquina, como o cliente
+preferir</p>
+<p class="preço">R$25,00</p>
+</li>
+
+<li>
+<h2>barba</h2>
+<img src="barba.jpg" alt="">
+<p class="decrição">Corte e desenho Profissional e barba</p>
+<p class="preço">R$18,00</p>
+</li>
+
+<li>
+<h2>Cabelo+barba</h2>
+<img src="cabelo+barba.jpg" alt="">
+<p class="decrição">Pacote completo de cabelo e barba </p>
+<p class="preço">R$35,00</p>
+</li>
+
+
+</ul>
+
+
+</main>
+
+
+<footer>
+<img src="logo-branco.png" alt="">
+<p>Copyright Barbearia Alura - 2023 - Leverson
+
+
+</footer>
+
+
+
+
+
+
+
+
+</body>
+</html>
